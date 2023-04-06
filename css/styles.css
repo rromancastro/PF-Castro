@@ -212,6 +212,8 @@ header {
     transition: .5s;
 }
 
+
+
 .fotos:hover {
     border-color: #ccc5bd;
 }
@@ -297,13 +299,24 @@ header {
 
 .imgproducto {
     width: 100%;
-    height: 150px;
+    height: 300px;
     object-fit: cover;
-    border: #ccc5bd 3px solid;
 }
 
-.descproducto {
-    padding: 10px;
+.carousel-inner {
+    width: 100%;
+    border: #ccc5bd 3px solid;
+    border-radius: 10px;
+}
+
+.carousel-item {
+    width: 100%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #00000048;
+    border-radius: 40%;
+    margin: 5px;
 }
 
 .descproducto h2 {
@@ -318,6 +331,14 @@ header {
     font-size: 20px;
     display: flex;
     flex-direction: column;
+    padding: 10px;
+    height: 100%;
+}
+
+.descproducto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .precio {
@@ -329,7 +350,7 @@ header {
     color: #000000;
     border: #ccc5bd 3px solid;
     width: 100%;
-    align-self: flex-end;
+    justify-self: flex-end;
 }
 
 .comprarlink {
@@ -498,7 +519,6 @@ footer {
 
     .imgproducto {
         height: 250px;
-        border-radius: 10px;
     }
 
 }
@@ -629,17 +649,6 @@ footer {
         height: 100%;
     }
 
-    .producto {
-        flex-direction: row;
-        
-    }
-
-    .descproducto {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
     .descproducto h2 {
         font-size: 35px;
     }
@@ -648,11 +657,13 @@ footer {
         font-size: 25px;
     }
 
-    .imgproducto {
-        width: 40%;
-        height: 100%;
+    .productos {
+        padding: 0 60px;
     }
 
+    .imgproducto {
+        height: 350px;
+    }
     
 
     .footerlink {

@@ -4,8 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
 * {
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -50,8 +50,11 @@ header {
 }
 
 .navbar-toggler:hover {
-    box-shadow: 0px 0px 13px -4px rgba(0,0,0,0.79);
-    border: none;
+    background-color: #e4dcd2;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
 }
 
 .offcanvas {
@@ -253,7 +256,7 @@ header {
 
 /* PRODUCTOS */
 
-.sectionproductos  {
+.sectionproductos {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -262,11 +265,11 @@ header {
 }
 
 .tituloproductos {
-        font-family: 'Itim', cursive;
-        color: #000000;
-        font-size: 30px;
-        text-align: center;
-        padding: 15px;
+    font-family: 'Itim', cursive;
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
 }
 
 .subtituloproductos {
@@ -298,7 +301,7 @@ header {
 
 .producto:hover {
     border-color: #ccc5bd;
-    box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.56);
+    box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.56);
 }
 
 .imgproducto {
@@ -317,7 +320,8 @@ header {
     width: 100%;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
     background-color: #00000048;
     border-radius: 40%;
     margin: 5px;
@@ -391,6 +395,58 @@ header {
 
 /* PRODUCTOS */
 
+/* NOSOTROS */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgabout {
+    border-radius: 50%;
+    width: 90%;
+    padding: 15px;
+}
+
+.about h1 {
+    font-family: 'Itim', cursive;
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+}
+
+.about h2 {
+    font-family: 'Itim', cursive;
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    background-color: #ebe3d8;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+}
+
+.about p {
+    font-family: 'Itim', cursive;
+    color: #000000;
+    font-size: 25px;
+    text-align: center;
+    background-color: #F5EFE6;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+}
+
+.about p span {
+    text-decoration: underline solid 2px;
+}
+
+/* NOSOTROS */
+
 /* FOOTER */
 
 footer {
@@ -428,7 +484,7 @@ footer {
     background-color: #a5abadc7;
 }
 
-.barrafooter{
+.barrafooter {
     width: 100%;
     height: 40px;
     background-color: #AEBDCA;
@@ -440,12 +496,14 @@ footer {
 
 @media screen and (min-width: 600px) {
 
+/*NAV*/
+
     nav {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
-    
+
     .logobox {
         display: flex;
         flex-direction: row;
@@ -454,14 +512,14 @@ footer {
         padding: 15px;
     }
 
-    .nombrenav{
+    .nombrenav {
         font-size: 30px;
     }
 
     .logoimg {
         width: 100px;
     }
-    
+
     .navlist {
         display: flex;
         flex-direction: row;
@@ -469,9 +527,11 @@ footer {
         justify-content: center;
     }
 
-    .navlink{
+    .navlink {
         font-size: 30px;
     }
+
+    /*INDEX*/
 
     .section1text {
         gap: 30px;
@@ -493,6 +553,7 @@ footer {
     .inf2 {
         font-size: 40px;
     }
+    /*FOOTER*/
 
 
     .footerlist {
@@ -503,6 +564,7 @@ footer {
     .footerlink {
         font-size: 25px;
     }
+    /*GALERIA*/
 
     .titulogaleria {
         font-size: 40px;
@@ -521,6 +583,8 @@ footer {
         object-fit: cover;
     }
 
+    /*PRODUCTOS*/
+
     .productos {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -537,10 +601,29 @@ footer {
         height: 250px;
     }
 
+    /*ABOUT*/
+    .imgabout {
+        width: 80%;
+    }
+
+    .about h1 {
+        font-size: 50px;
+    }
+
+    .about h2 {
+        font-size: 40px;
+    }
+
+    .about p {
+        font-size: 30px;
+    }
+
 }
 
 
 @media screen and (min-width: 1023px) {
+
+    /*NAV*/
 
     header {
         display: flex;
@@ -555,7 +638,7 @@ footer {
         justify-content: flex-start;
     }
 
-    .navbar-nav{
+    .navbar-nav {
         gap: 15px;
     }
 
@@ -593,6 +676,8 @@ footer {
         font-size: 30px;
     }
 
+    /*INDEX*/
+
     .sectionindex1 {
         background-image: url(../multimedia/fondodesk.png);
     }
@@ -628,14 +713,16 @@ footer {
         width: 500px;
     }
 
+    /*GALERIA*/
+
     .boxfotos {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 300px 300px 300px;
-        grid-template-areas: 
-        "f1 f1 f2"
-        "f3 f3 f2"
-        "f4 f5 f5"
+        grid-template-areas:
+            "f1 f1 f2"
+            "f3 f3 f2"
+            "f4 f5 f5"
         ;
     }
 
@@ -644,26 +731,32 @@ footer {
         width: 100%;
         height: 100%;
     }
+
     .f2 {
         object-fit: cover;
         width: 100%;
         height: 100%;
     }
+
     .f3 {
         object-fit: cover;
         width: 100%;
         height: 100%;
     }
+
     .f4 {
         object-fit: cover;
         width: 100%;
         height: 100%;
     }
+
     .f5 {
         object-fit: cover;
         width: 100%;
         height: 100%;
     }
+
+    /*PRODUCTOS*/
 
     .descproducto h2 {
         font-size: 35px;
@@ -680,7 +773,22 @@ footer {
     .imgproducto {
         height: 350px;
     }
-    
+
+    /*ABOUT*/
+
+    .about {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .imgabout {
+        width: 40%;
+    }
+
+
+    /*FOOTER*/
+
 
     .footerlink {
         font-size: 30px;

@@ -137,7 +137,7 @@ header {
     flex-direction: column;
 }
 
-.welc {
+.section1text h1 {
     font-family: 'Itim', cursive;
     color: #fffbf5;
     font-size: 40px;
@@ -148,7 +148,7 @@ header {
     padding: 0 2px;
 }
 
-.inf {
+.section1text p {
     font-family: 'Itim', cursive;
     color: #fffbf5;
     font-size: 30px;
@@ -170,13 +170,13 @@ header {
     padding: 10px;
 }
 
-.img2 {
+.sectionindex2 img {
     width: 85%;
     border-radius: 50%;
     border: #dee6e9 5px solid;
 }
 
-.inf2 {
+.sectionindex2 p {
     font-family: 'Itim', cursive;
     color: #ffffff;
     font-size: 30px;
@@ -537,20 +537,20 @@ footer {
         gap: 30px;
     }
 
-    .welc {
+    .section1text h1 {
         font-size: 50px;
     }
 
-    .inf {
+    .section1text p {
         font-size: 40px;
         padding: 15px;
     }
 
-    .img2 {
+    .sectionindex2 img {
         width: 500px;
     }
 
-    .inf2 {
+    .sectionindex2 p {
         font-size: 40px;
     }
     /*FOOTER*/
@@ -686,13 +686,13 @@ footer {
         width: 60%;
     }
 
-    .welc {
+    .section1text h1 {
         text-align: start;
         font-size: 60px;
         padding: 15px;
     }
 
-    .inf {
+    .section1text p {
         text-align: start;
         font-size: 45px;
     }
@@ -704,12 +704,12 @@ footer {
         padding: 15px;
     }
 
-    .inf2 {
+    .sectionindex2 p {
         font-size: 45px;
         text-align: start;
     }
 
-    .img2 {
+    .sectionindex2 img {
         width: 500px;
     }
 

@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #faf5ef;
+}
+
 /* NAV */
 
 header {
@@ -351,6 +355,12 @@ header {
     border: #ccc5bd 3px solid;
     width: 100%;
     justify-self: flex-end;
+    transition: 1s;
+}
+
+.comprar:hover {
+    background-color: #ccc5bd;
+    border: #ccc5bd 3px solid;
 }
 
 .comprarlink {
@@ -358,7 +368,7 @@ header {
     text-decoration: none;
     font-family: 'Itim', cursive;
     font-size: 20px;
-    
+    display: block;
 }
 
 .catcompleto {
@@ -368,6 +378,12 @@ header {
     border: #ccc5bd 3px solid;
     width: 250px;
     height: 50px;
+    transition: 1s;
+}
+
+.catcompleto:hover {
+    background-color: #ccc5bd;
+    border: #ccc5bd 3px solid;
 }
 
 
@@ -400,7 +416,7 @@ footer {
 .footerlink {
     text-decoration: none;
     color: #000000;
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Itim', cursive;
     font-size: 20px;
     background-color: #dee6e9c7;
     padding: 0px 10px;

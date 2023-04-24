@@ -1,0 +1,118 @@
+.sectionproductos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #faf5ef;
+}
+
+.tituloproductos {
+    font-family: $font-tit;
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+    padding: 15px;
+}
+
+.productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: #e4dcd2 3px solid;
+    border-radius: 14px;
+    width: 95%;
+    background-color: #fcf9f5;
+    transition: 0.5s;
+}
+
+.producto:hover {
+    border-color: #ccc5bd;
+    box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.56);
+}
+
+.imgproducto {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.carousel-inner {
+    width: 100%;
+    border: #ccc5bd 3px solid;
+    border-radius: 10px;
+}
+
+.carousel-item {
+    width: 100%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #00000048;
+    border-radius: 40%;
+    margin: 5px;
+}
+.descproducto {
+    font-family: $font-p;
+    color: #000000;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    height: 100%;
+    h2 {
+        font-family: $font-p;
+        color: #000000;
+        font-size: 30px;
+    }
+}
+
+.precio {
+    font-size: 30px;
+}
+
+.comprar {
+    background-color: #e4dcd2;
+    color: #000000;
+    border: #ccc5bd 3px solid;
+    width: 100%;
+    justify-self: flex-end;
+    transition: 1s;
+    &:hover {
+        background-color: #ccc5bd;
+        border: #ccc5bd 3px solid;
+    }
+}
+
+.comprarlink {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Itim', cursive;
+    font-size: 25px;
+    display: block;
+}
+
+.catcompleto {
+    margin: 15px;
+    background-color: #e4dcd2;
+    color: #000000;
+    border: #ccc5bd 3px solid;
+    width: 250px;
+    height: 100%;
+    transition: 1s;
+    &:hover {
+        background-color: #ccc5bd;
+        border: #ccc5bd 3px solid;
+    }
+}
+

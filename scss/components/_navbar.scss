@@ -1,0 +1,95 @@
+header {
+    background-color: #F5EFE6;
+}
+
+.navbar {
+    background-color: #F5EFE6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.navbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-brand {
+    padding: 19px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #F5EFE6;
+}
+
+.navbar-toggler {
+    border: #e4dcd2 3px solid;
+}
+
+.navbar-toggler:hover {
+    background-color: #e4dcd2;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.offcanvas {
+    background-color: #ece4d8;
+}
+
+.offcanvas-header {
+    background-color: #F5EFE6;
+}
+
+
+.logoimg {
+    width: 25%;
+    padding: 10px;
+    background-color: #fffef8;
+    border-radius: 50%;
+}
+
+.nombrenav {
+    display: flex;
+    font-family: $font-p;
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.navlink {
+    text-decoration: none;
+    color: #000000;
+    font-family: $font-p;
+    font-size: 30px;
+    border-radius: 15px;
+    white-space: nowrap;
+    transition: .5s;
+    background-color: #f7f2eb;
+    padding: 3px 6px;
+}
+
+.navlink:hover {
+    background-color: #f7f2eb;
+    border: #ccc5bd 3px solid;
+
+}

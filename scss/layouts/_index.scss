@@ -1,0 +1,66 @@
+.sectionindex1 {
+    background-image: url(../multimedia/fondomovil.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.barra {
+    background-color: #fbf6eac9;
+    width: 100%;
+    height: 40px;
+}
+
+.section1text {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    h1 {
+        font-family: $font-tit;
+        color: #fffbf5;
+        font-size: $size-tit-mob;
+        text-align: center;
+        text-shadow: 2px 2px 5px #000000;
+        background-color: #fbf6eaad;
+        border-radius: 15px;
+        padding: 0 2px;
+    }
+    p {
+        font-family: $font-p;
+        color: #fffbf5;
+        font-size: $size-p-mob;
+        text-align: center;
+        text-shadow: 5px 5px 10px #000000;
+    }
+}
+
+
+
+.barra2 {
+    background-color: #dee6e9c7;
+    width: 100%;
+    height: 40px;
+}
+
+.sectionindex2 {
+    background-color: #AEBDCA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    img {
+        width: 85%;
+        border-radius: 50%;
+        border: #dee6e9 5px solid;
+    }
+    p {
+        font-family: $font-p;
+        color: #ffffff;
+        font-size: $size-p-mob;
+        text-align: center;
+        text-shadow: 5px 5px 10px #000000;
+    }
+}

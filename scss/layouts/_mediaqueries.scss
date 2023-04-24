@@ -1,0 +1,305 @@
+@media screen and (min-width: 600px) {
+
+    /*NAV*/
+    
+        nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    
+        .logobox {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            gap: 15px;
+            padding: 15px;
+        }
+    
+        .nombrenav {
+            font-size: 40px;
+        }
+    
+        .logoimg {
+            width: 100px;
+        }
+    
+        .navlist {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    
+        .navlink {
+            font-size: 40px;
+        }
+    
+        /*INDEX*/
+    
+        .section1text {
+            gap: 30px;
+        }
+    
+        .section1text h1 {
+            font-size: $size-tit-tab;
+        }
+    
+        .section1text p {
+            font-size: $size-p-tab;
+            padding: 15px;
+        }
+    
+        .sectionindex2 img {
+            width: 500px;
+        }
+    
+        .sectionindex2 p {
+            font-size: $size-p-tab;
+        }
+        /*FOOTER*/
+    
+    
+        .footerlist {
+            flex-direction: row;
+            justify-content: center;
+        }
+    
+        .footerlink {
+            font-size: 35px;
+        }
+        /*GALERIA*/
+    
+        .titulogaleria {
+            font-size: $size-tit-tab;
+        }
+    
+        .boxfotos {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+    
+        .fotos {
+            width: 400px;
+            height: 400px;
+            object-fit: cover;
+        }
+    
+        /*PRODUCTOS*/
+    
+        .productos {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: auto;
+            justify-content: flex-start;
+        }
+    
+        .producto {
+            width: 100%;
+            height: 100%;
+        }
+    
+        .imgproducto {
+            height: 250px;
+        }
+    
+        /*ABOUT*/
+        .imgabout {
+            width: 80%;
+        }
+    
+        .about h1 {
+            font-size: $size-tit-tab;
+        }
+    
+        .about h2 {
+            font-size: $size-p-tab;
+        }
+    
+        .about p {
+            font-size: 40px;
+            padding: 30px;
+        }
+    
+    }
+    
+    
+    @media screen and (min-width: 1023px) {
+    
+        /*NAV*/
+    
+        header {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content: space-between;
+        }
+    
+        .navbar-brand {
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+        }
+    
+        .navbar-nav {
+            gap: 15px;
+        }
+    
+        .navlink {
+            font-size: 35px;
+            background-color: #fffef8;
+        }
+    
+        .navlink:hover {
+            font-size: 37px;
+            background-color: #fffef8;
+        }
+    
+        .navbox {
+            display: flex;
+            flex-direction: row;
+        }
+    
+        .logobox {
+            flex-direction: row;
+        }
+    
+        .logoimg {
+            margin-left: 25px;
+            width: 80px;
+            transition: 0.5s;
+        }
+    
+        .logoimg:hover {
+            width: 90px;
+            padding: 7px;
+        }
+    
+        .nombrenav {
+            font-size: 40px;
+        }
+    
+        /*INDEX*/
+    
+        .sectionindex1 {
+            background-image: url(../multimedia/fondodesk.png);
+        }
+    
+        .section1text {
+            width: 60%;
+        }
+    
+        .section1text h1 {
+            text-align: start;
+            font-size: $size-tit-desk;
+            padding: 15px;
+        }
+    
+        .section1text p {
+            text-align: start;
+            font-size: $size-p-desk;
+        }
+    
+        .sectionindex2 {
+            flex-direction: row;
+            justify-content: center;
+            gap: 15px;
+            padding: 15px;
+        }
+    
+        .sectionindex2 p {
+            font-size: $size-p-desk;
+            text-align: start;
+        }
+    
+        .sectionindex2 img {
+            width: 500px;
+        }
+    
+        /*GALERIA*/
+    
+        .boxfotos {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 300px 300px 300px;
+            grid-template-areas:
+                "f1 f1 f2"
+                "f3 f3 f2"
+                "f4 f5 f5"
+            ;
+        }
+    
+        .f1 {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    
+        .f2 {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    
+        .f3 {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    
+        .f4 {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    
+        .f5 {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    
+        /*PRODUCTOS*/
+    
+        .descproducto h2 {
+            font-size: 40px;
+            text-decoration: underline 2px;
+        }
+    
+        .descproducto p {
+            font-size: 40px;
+        }
+    
+        .productos {
+            padding: 0 60px;
+            width: 100%;
+        }
+    
+        .imgproducto {
+            height: 350px;
+            width: 100%;
+        }
+    
+        /*ABOUT*/
+    
+        .about {
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+    
+        .imgabout {
+            width: 40%;
+        }
+    
+    
+        /*FOOTER*/
+    
+    
+        .footerlink {
+            font-size: 30px;
+        }
+    
+    }

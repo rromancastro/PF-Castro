@@ -1,0 +1,21 @@
+/*FUENTES*/
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+/*BASE*/
+@import "base/_reset.scss";
+@import "base/_vars.scss";
+
+/*COMPONENTES*/
+@import "components/_navbar.scss";
+@import "components/_footer.scss";
+
+/*LAYOUTS*/
+@import "layouts/_about.scss";
+@import "layouts/_galeria.scss";
+@import "layouts/_index.scss";
+@import "layouts/_ofertas.scss";
+@import "layouts/_productos.scss";
+
+/*MEDIAQUERIES*/
+@import "layouts/_mediaqueries.scss";

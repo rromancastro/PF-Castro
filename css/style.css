@@ -251,7 +251,7 @@ footer {
 }
 
 .sectionindex1 {
-  background-image: url(../multimedia/fondomovil.jpg);
+  background-image: url(../multimedia/iconos-fondos/fondomovil.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -578,7 +578,7 @@ footer {
   }
   /*INDEX*/
   .sectionindex1 {
-    background-image: url(../multimedia/fondodesk.png);
+    background-image: url(../multimedia/iconos-fondos/fondodesk.png);
   }
   .section1text {
     width: 60%;

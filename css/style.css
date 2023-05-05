@@ -67,6 +67,9 @@ header {
   border-radius: 50%;
   border: #e4dcd2 3px solid;
 }
+.logoimg:hover {
+  border: #e4dcd2 5px solid;
+}
 
 .nombrenav {
   display: flex;
@@ -97,13 +100,14 @@ header {
   white-space: nowrap;
   transition: 0.5s;
   background-color: #f7f2eb;
-  padding: 3px 6px;
+  padding: 1px 6px;
   border: #e4dcd2 3px solid;
 }
 
 .navlink:hover {
   background-color: #f7f2eb;
   border: #ccc5bd 4px solid;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.75);
 }
 
 footer {
@@ -253,7 +257,7 @@ footer {
 }
 
 .sectionindex1 {
-  background-image: url(../../multimedia/iconos-fondos/fondomovil.jpg);
+  background-image: url(../multimedia/iconos-fondos/fondomovil.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -405,24 +409,28 @@ footer {
   background-color: #e4dcd2;
   color: #000000;
   border: #ccc5bd 3px solid;
+  padding: 6px;
   width: 100%;
-  justify-self: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   transition: 1s;
+  border-radius: 14px;
+  text-decoration: none;
+  font-family: "Itim", cursive;
+  font-size: 20px;
 }
 .comprar:hover {
   background-color: #ccc5bd;
   border: #ccc5bd 3px solid;
 }
 
-.comprarlink {
-  color: #000000;
-  text-decoration: none;
-  font-family: "Itim", cursive;
-  font-size: 25px;
-  display: block;
-}
-
 .catcompleto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
   margin: 15px;
   background-color: #e4dcd2;
   color: #000000;
@@ -430,6 +438,10 @@ footer {
   width: 250px;
   height: 100%;
   transition: 1s;
+  font-family: "Itim", cursive;
+  font-size: 20px;
+  padding: 6px;
+  border-radius: 14px;
 }
 .catcompleto:hover {
   background-color: #ccc5bd;
@@ -580,7 +592,7 @@ footer {
   }
   /*INDEX*/
   .sectionindex1 {
-    background-image: url(../../multimedia/iconos-fondos/fondodesk.png);
+    background-image: url(../multimedia/iconos-fondos/fondodesk.png);
   }
   .section1text {
     width: 60%;
@@ -641,19 +653,19 @@ footer {
   }
   /*PRODUCTOS*/
   .descproducto h2 {
-    font-size: 40px;
+    font-size: 35px;
     text-decoration: underline 2px;
   }
   .descproducto p {
-    font-size: 40px;
+    font-size: 35px;
   }
   .productos {
     padding: 0 60px;
-    width: 100%;
+    width: 1100px;
   }
   .imgproducto {
-    height: 350px;
     width: 100%;
+    height: 350px;
   }
   /*ABOUT*/
   .about {

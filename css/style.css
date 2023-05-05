@@ -65,6 +65,7 @@ header {
   padding: 10px;
   background-color: #fffef8;
   border-radius: 50%;
+  border: #e4dcd2 3px solid;
 }
 
 .nombrenav {
@@ -97,11 +98,12 @@ header {
   transition: 0.5s;
   background-color: #f7f2eb;
   padding: 3px 6px;
+  border: #e4dcd2 3px solid;
 }
 
 .navlink:hover {
   background-color: #f7f2eb;
-  border: #ccc5bd 3px solid;
+  border: #ccc5bd 4px solid;
 }
 
 footer {
@@ -251,7 +253,7 @@ footer {
 }
 
 .sectionindex1 {
-  background-image: url(../multimedia/iconos-fondos/fondomovil.jpg);
+  background-image: url(../../multimedia/iconos-fondos/fondomovil.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -578,7 +580,7 @@ footer {
   }
   /*INDEX*/
   .sectionindex1 {
-    background-image: url(../multimedia/iconos-fondos/fondodesk.png);
+    background-image: url(../../multimedia/iconos-fondos/fondodesk.png);
   }
   .section1text {
     width: 60%;
